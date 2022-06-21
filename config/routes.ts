@@ -19,6 +19,14 @@
     icon: 'smile',
     component: './Welcome',
   },
+  //new
+  {
+    name: 'NewPage',
+    icon: 'star',
+    path: '/new',
+    target: '_blank', // 点击新窗口打开
+    component: './NewPage',
+  },
   {
     path: '/admin',
     name: 'admin',
